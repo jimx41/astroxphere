@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy | Astroxphere</title><meta name="description" content="Privacy Policy for the Astroxphere app by Z Sphere.">
+<style>
+:root{--bg:#05060f;--text:#e8ebfa;--muted:#a3abcc;--gold:#e9cf9a;--accent:#9bb0ff;--line:rgba(255,255,255,.1)}
+@media (prefers-color-scheme: light){:root{--bg:#f6f7fc;--text:#161a33;--muted:#545c80;--gold:#8a6a1f;--accent:#3d52c4;--line:rgba(20,26,60,.14)}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:16.5px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+body::before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(60% 40% at 15% 0%,rgba(124,92,255,.28),transparent 70%),radial-gradient(50% 35% at 100% 15%,rgba(56,189,248,.14),transparent 70%)}
+@media (prefers-color-scheme: light){body::before{opacity:.35}}
+.wrap{max-width:760px;margin:0 auto;padding:44px 22px 80px}
+.brand{font-family:Georgia,"Times New Roman",serif;font-size:20px;font-weight:700;letter-spacing:.02em;margin-bottom:34px;color:var(--text)}
+.brand span{display:block;font:700 11px/1 -apple-system,Segoe UI,Roboto,sans-serif;letter-spacing:3px;color:var(--gold);margin-top:8px;text-transform:uppercase}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:40px;line-height:1.1;margin:0 0 8px;letter-spacing:-.01em}
+.meta{color:var(--muted);font-size:14px;margin:0 0 28px}
+.lead{font-size:18px;border-left:3px solid var(--gold);padding:2px 0 2px 16px;margin:0 0 30px;color:var(--text)}
+h2{font-family:Georgia,"Times New Roman",serif;font-size:24px;margin:40px 0 8px;padding-top:6px;letter-spacing:-.005em}
+h3{font-size:16px;margin:22px 0 4px;color:var(--gold);letter-spacing:.04em;text-transform:uppercase}
+p,li{color:var(--text)}ul{padding-left:22px}li{margin:6px 0}
+a{color:var(--accent)}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{color:var(--gold);font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.box{border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:18px 0;background:rgba(155,176,255,.06)}
+footer{margin-top:54px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+footer a{margin-right:16px}
+@media (max-width:520px){h1{font-size:32px}table,thead,tbody,tr,th,td{display:block}thead{display:none}td{border:0;padding:2px 0}tr{border-bottom:1px solid var(--line);padding:10px 0}}
+</style></head><body><div class="wrap">
+<div class="brand">Astroxphere<span>by Z Sphere</span></div>
+<h1>Privacy Policy</h1><p class="meta">Last updated: November 8, 2026</p>
+
+<p class="lead">Astroxphere has no accounts, no sign-in, and no servers of ours that store information about you. Most of what the app remembers stays on your phone. This page explains the few places your data goes and why.</p>
+
+<h2>1. Who we are</h2>
+<p>Astroxphere (package <code>com.zsphere.astroxphere</code>) is an Android app made by Z Sphere, an independent developer based in Bangladesh. In this policy, "we", "us" and "the app" mean Z Sphere and Astroxphere. You can reach us at <a href="mailto:itsjimlive@gmail.com">itsjimlive@gmail.com</a>.</p>
+
+<h2>2. What stays on your device</h2>
+<p>The app saves these things only on your phone, using the app's local storage. We cannot see them:</p>
+<ul>
+<li>Places you save for Sky Weather and the ISS Tracker (a name and coordinates), and which one is selected</li>
+<li>Your best Space Shooter score, chosen ship, and sound setting</li>
+<li>Whether Premium is unlocked, and whether you have seen the welcome screens</li>
+<li>Saved copies of recent news, launch lists, forecasts, the Astronomy Picture of the Day, and ISS orbit data, so the app works faster and offline</li>
+</ul>
+<p>Uninstalling the app, or choosing "Clear storage" for it in Android settings, deletes all of this.</p>
+
+<h2>3. Location</h2>
+<p>The app never asks for your location when it opens. It asks only when you tap <strong>Use my location</strong> in Sky Weather or the ISS Tracker. You can instead type a place or coordinates, or pick a famous observatory, and never grant any permission.</p>
+<p>If you do share it, your coordinates are used to work out tonight's sky, the Moon and Sun positions, and ISS passes. Those calculations run on your phone. To get the weather forecast, the app sends the coordinates (rounded to 3 decimal places, plus altitude) to MET Norway, described below. We do not receive or store your location, and the app does not track your location in the background.</p>
+
+<h2>4. Services the app contacts</h2>
+<p>To show live information, the app connects directly from your phone to the services below. Like any internet request, each service can see your IP address and basic technical details such as your device type. We do not send them your name, email or any account ID.</p>
+<table><thead><tr><th>Service</th><th>What it is used for</th><th>What is sent</th></tr></thead><tbody>
+<tr><td><a href="https://science.nasa.gov/">NASA</a></td><td>Astronomy Picture of the Day</td><td>Standard request only</td></tr>
+<tr><td>NASA, JPL, ESA, JAXA news feeds</td><td>Space news headlines</td><td>Standard request only. If a feed cannot be reached directly, the app may fetch it through the relay <a href="https://rss2json.com/">rss2json.com</a>, which then sees the request and the feed address.</td></tr>
+<tr><td><a href="https://api.met.no/">MET Norway</a></td><td>Weather forecast for Sky Weather</td><td>Your chosen coordinates and altitude</td></tr>
+<tr><td><a href="https://thespacedevs.com/">The Space Devs</a> (Launch Library 2)</td><td>Launch calendar</td><td>Standard request only</td></tr>
+<tr><td><a href="https://celestrak.org/">CelesTrak</a> and wheretheiss.at</td><td>ISS orbit data</td><td>Standard request only</td></tr>
+<tr><td>Google AdMob</td><td>Ads in the free version</td><td>See section 5</td></tr>
+<tr><td>Google Play and RevenueCat</td><td>Premium purchase</td><td>See section 6</td></tr>
+</tbody></table>
+<p>Each service has its own privacy policy, which applies to what it collects. Links inside news stories open the agency's own website in your browser, outside the app.</p>
+
+<h2>5. Ads</h2>
+<p>The free version of Astroxphere shows ads provided by Google AdMob (full-screen ads between Space Shooter games and a small banner on the home screen). AdMob may collect and use device identifiers such as your Android advertising ID, your IP address, and information about how you interact with ads, to deliver and measure ads and prevent fraud. This may include personalized ads, depending on your Google settings and where you live. You can reset your advertising ID or opt out of ad personalization in Android: <strong>Settings &rarr; Privacy &rarr; Ads</strong>. Learn more at <a href="https://policies.google.com/technologies/ads">how Google uses data in ads</a>. People who unlock Premium do not see ads.</p>
+
+<h2>6. Purchases</h2>
+<p>Premium is a one-time purchase made through Google Play. We use RevenueCat to check whether a purchase is active and to restore it on a new device. RevenueCat receives an anonymous app user ID and purchase information such as which product was bought and when; see the <a href="https://www.revenuecat.com/privacy">RevenueCat Privacy Policy</a>. Google handles your payment details. We never see or store your card or payment information.</p>
+
+<h2>7. What we do not do</h2>
+<ul>
+<li>We do not ask you to create an account or give your name, email or phone number.</li>
+<li>We do not sell your personal information.</li>
+<li>We do not track your location in the background.</li>
+<li>We do not run our own servers that collect data about you.</li>
+<li>We do not use your data to build a profile of you.</li>
+</ul>
+
+<h2>8. Children</h2>
+<p>Astroxphere is meant for a general audience and is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has given us information, contact us and we will help.</p>
+
+<h2>9. Your choices and rights</h2>
+<p>Because the app keeps your data on your own phone, you control it: delete a saved place inside the app, clear the app's storage, or uninstall it. You can turn location permission on or off in Android settings at any time, and you can reset or limit your advertising ID as described above. Depending on where you live, you may also have rights to access, correct or delete personal data held by the services in section 4; contact those services directly, or email us and we will point you the right way.</p>
+
+<h2>10. Security</h2>
+<p>The app connects to services over encrypted (HTTPS) connections. No method of storage or transmission is perfectly secure, but we keep the amount of data the app handles to a minimum.</p>
+
+<h2>11. Changes to this policy</h2>
+<p>If we change how the app handles data, we will update this page and its "Last updated" date. Please check back from time to time.</p>
+
+<h2>12. Contact</h2>
+<p>Questions about privacy? Email <a href="mailto:itsjimlive@gmail.com">itsjimlive@gmail.com</a>.</p>
+
+<footer><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms and Conditions</a><br><br>&copy; 2026 Z Sphere. Contact: <a href="mailto:itsjimlive@gmail.com">itsjimlive@gmail.com</a></footer>
+</div></body></html>
